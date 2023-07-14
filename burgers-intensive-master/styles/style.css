@@ -27,7 +27,7 @@ body {
   margin: 0 auto;
 }
 
-.button {
+.btn {
   background:linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
   border-radius: 8px;
   width: 260px;
@@ -45,7 +45,7 @@ body {
   color: #191411;
 }
 
-.button:hover {
+.btn:hover {
   background: linear-gradient(95.61deg, #ac6115 0%, #9e7a19 100%);
 }
 
@@ -302,6 +302,7 @@ body {
 	margin-left: 674px;
 	padding: 60px 40px;
 	border-radius: 16px;
+  box-sizing: border-box;
 }
 
 .order-form-text {
@@ -340,6 +341,7 @@ body {
 	outline: none;
 	border: 1px solid transparent;
 	color: white;
+  box-sizing: border-box;
 }
 
 .order-form-inputs .btn {
